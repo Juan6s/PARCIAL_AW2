@@ -10,6 +10,7 @@ rutaIngredientes.get("/", function (req, res) {
 
 rutaIngredientes.post("/", function (req, res) {
     const body = req.body;
+    console.log(body)
     AddArchivo(NOMBRES_ARCHIVOS.INGREDIENTES, body)
     res.sendStatus(200)
 });
