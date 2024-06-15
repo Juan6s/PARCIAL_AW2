@@ -1,6 +1,7 @@
 [
   {
     "id": 1,
+    "nombre": "huevos con cebolla",
     "ingredientes": [
       { "idIngrediente": 1, "cantidad": 100 },
       { "idIngrediente": 2, "cantidad": 20 }
