@@ -1,10 +1,1 @@
-[
-  {
-    "id": 1,
-    "nombre": "huevos con cebolla",
-    "ingredientes": [
-      { "idIngrediente": 1, "cantidad": 100 },
-      { "idIngrediente": 2, "cantidad": 20 }
-    ]
-  }
-]
+[{"id":1,"nombre":"huevos con cebolla","ingredientes":[{"idIngrediente":1,"cantidad":100},{"idIngrediente":2,"cantidad":20}]},{"id":2,"nombre":"pizza","ingredientes":[{"idIngrediente":4,"cantidad":"400"},{"idIngrediente":3,"cantidad":"200"}]},{"id":3,"nombre":"fugazzeta","ingredientes":[{"idIngrediente":2,"cantidad":"50"},{"idIngrediente":4,"cantidad":"350"},{"idIngrediente":3,"cantidad":"200"}]}]
