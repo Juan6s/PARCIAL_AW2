@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { LeerArchivo, NOMBRES_ARCHIVOS } from "../archivos.js";
+import { LeerArchivo, AddArchivo, NOMBRES_ARCHIVOS } from "../archivos.js";
 
 const rutaRecetas = Router();
 
@@ -30,5 +30,11 @@ function econtrarNombreIngrediente(id, ingredientes) {
 
   return ingrediente.nombre;
 }
+
+rutaRecetas.post("/", function (req, res) {
+    const body = req.body;
+    AddArchivo(NOMBRES_ARCHIVOS.RECETAS, body)
+    res.sendStatus(200)
+});
 
 export default rutaRecetas;

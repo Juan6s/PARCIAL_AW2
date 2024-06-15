@@ -1,5 +1,6 @@
 import express from "express";
 import rutaRecetas from "./routes/recetas.js";
+import rutaIngredientes from "./routes/ingredientes.js";
 
 const app = express();
 const PORT = 3000;
@@ -10,3 +11,4 @@ app.listen(PORT, () => {
 
 app.use(express.json());
 app.use("/recetas",rutaRecetas);
+app.use("/ingredientes", rutaIngredientes)
